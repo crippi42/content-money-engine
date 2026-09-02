@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+
+  <!-- Purple accent header bar -->
+  <rect x="0" y="0" width="1000" height="100" fill="#5a3de6"/>
+
+  <!-- Large "5" in purple circle -->
+  <circle cx="500" cy="180" r="55" fill="#5a3de6"/>
+  <text x="500" y="188" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">5</text>
+
+  <!-- Pin icon (emoji) -->
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="32" fill="#5a3de6" text-anchor="middle">🔗</text>
+
+  <!-- Title -->
+  <text x="500" y="330" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#333" text-anchor="middle">Connect Your Domain</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="378" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6" text-anchor="middle">Point Your Domain to Hostinger in 5 Minutes</text>
+
+  <!-- Section header -->
+  <text x="120" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a3de6">Nameserver entries to add at your domain registrar:</text>
+
+  <!-- Nameserver entry 1 -->
+  <rect x="120" y="450" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="484" r="20" fill="#5a3de6"/>
+  <text x="165" y="490" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="215" y="478" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#555">Primary nameserver</text>
+  <text x="215" y="503" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#5a3de6">ns1.dns-parking.com</text>
+
+  <!-- Nameserver entry 2 -->
+  <rect x="120" y="528" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="562" r="20" fill="#5a3de6"/>
+  <text x="165" y="568" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="215" y="556" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#555">Secondary nameserver</text>
+  <text x="215" y="581" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#5a3de6">ns2.dns-parking.com</text>
+
+  <!-- Propagation timer card -->
+  <rect x="120" y="620" width="760" height="100" fill="#fff4e6" stroke="#ff9800" stroke-width="2" rx="10"/>
+  <text x="170" y="660" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ff9800">⏱</text>
+  <text x="200" y="660" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">DNS propagation</text>
+  <text x="200" y="688" font-family="Arial, sans-serif" font-size="15" fill="#555">Changes take 24–48 hours to spread worldwide</text>
+  <text x="200" y="708" font-family="Arial, sans-serif" font-size="13" fill="#888">Site may load from old or new server during this window</text>
+
+  <!-- Section header for paths -->
+  <text x="120" y="760" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a3de6">Which setup path applies to you?</text>
+
+  <!-- Path 1: Domain bought through Hostinger -->
+  <rect x="120" y="780" width="370" height="180" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <circle cx="150" cy="810" r="14" fill="#4caf50"/>
+  <text x="150" y="816" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">✓</text>
+  <text x="175" y="816" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4caf50">Auto-setup</text>
+  <text x="140" y="850" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Bought domain through Hostinger</text>
+  <text x="140" y="878" font-family="Arial, sans-serif" font-size="13" fill="#555">Nameservers are configured</text>
+  <text x="140" y="898" font-family="Arial, sans-serif" font-size="13" fill="#555">automatically — no action</text>
+  <text x="140" y="918" font-family="Arial, sans-serif" font-size="13" fill="#555">required from you.</text>
+  <text x="140" y="944" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#4caf50">Live in minutes</text>
+
+  <!-- Path 2: Domain from another registrar -->
+  <rect x="510" y="780" width="370" height="180" fill="#f8f9fa" stroke="#5a3de6" stroke-width="2" rx="10"/>
+  <circle cx="540" cy="810" r="14" fill="#5a3de6"/>
+  <text x="540" y="816" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">i</text>
+  <text x="565" y="816" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a3de6">Manual</text>
+  <text x="530" y="850" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Domain from another registrar</text>
+  <text x="530" y="878" font-family="Arial, sans-serif" font-size="13" fill="#555">Log into your registrar, open</text>
+  <text x="530" y="898" font-family="Arial, sans-serif" font-size="13" fill="#555">DNS settings, replace the two</text>
+  <text x="530" y="918" font-family="Arial, sans-serif" font-size="13" fill="#555">nameservers above, then save.</text>
+  <text x="530" y="944" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#5a3de6">Live in 24–48 hours</text>
+
+  <!-- Done banner -->
+  <rect x="120" y="985" width="760" height="60" fill="#5a3de6" rx="10"/>
+  <circle cx="160" cy="1015" r="18" fill="white"/>
+  <text x="160" y="1021" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#5a3de6" text-anchor="middle">✓</text>
+  <text x="200" y="1008" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Done!</text>
+  <text x="200" y="1030" font-family="Arial, sans-serif" font-size="14" fill="#e0d8f5">Your site will be live once propagation finishes</text>
+
+  <!-- CTA button -->
+  <rect x="350" y="1080" width="300" height="70" fill="#5a3de6" rx="35"/>
+  <text x="500" y="1125" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Set Up DNS →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1380" width="1000" height="120" fill="#5a3de6"/>
+  <text x="500" y="1410" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Auto-setup if you buy domain through Hostinger</text>
+  <text x="500" y="1435" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+  <text x="500" y="1455" font-family="Arial, sans-serif" font-size="10" fill="#cccccc" text-anchor="middle">All prices verified September 2026</text>
+</svg>

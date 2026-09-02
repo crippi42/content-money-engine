@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+  <rect x="0" y="0" width="1000" height="80" fill="#5a3de6"/>
+  <text x="500" y="45" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">8-Step Hostinger Setup Guide</text>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">From zero to live site in 8 simple steps</text>
+
+  <!-- Step 1 -->
+  <rect x="50" y="100" width="900" height="130" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="145" r="22" fill="#5a3de6"/>
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">🎯 Choose Your Purpose</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="16" fill="#555">Blog or portfolio → Premium plan</text>
+  <text x="150" y="185" font-family="Arial, sans-serif" font-size="16" fill="#555">Business site → Cloud Startup plan</text>
+  <text x="150" y="210" font-family="Arial, sans-serif" font-size="16" fill="#555">eComm store → Cloud Startup plan</text>
+  <text x="150" y="235" font-family="Arial, sans-serif" font-size="16" fill="#555">Multiple sites → Unlimited plan</text>
+
+  <!-- Step 2 -->
+  <rect x="50" y="250" width="900" height="130" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="295" r="22" fill="#5a3de6"/>
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">🌐 Choose Your Domain</text>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="16" fill="#555">Register new (.com recommended)</text>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="16" fill="#555">Transfer existing domain</text>
+  <text x="150" y="355" font-family="Arial, sans-serif" font-size="16" fill="#555">Use subdomain (free option)</text>
+
+  <!-- Step 3 -->
+  <rect x="50" y="400" width="900" height="150" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="445" r="22" fill="#5a3de6"/>
+  <text x="100" y="450" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="150" y="430" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">📋 Select Hosting Plan</text>
+  <text x="150" y="455" font-family="Arial, sans-serif" font-size="15" fill="#555">Premium: $2.99/mo (3 websites)</text>
+  <text x="150" y="480" font-family="Arial, sans-serif" font-size="15" fill="#555">Unlimited: $3.99/mo (unlimited sites)</text>
+  <text x="150" y="505" font-family="Arial, sans-serif" font-size="15" fill="#555">Cloud Startup: $7.99/mo (eComm, email)</text>
+
+  <!-- Step 4 -->
+  <rect x="50" y="570" width="900" height="130" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="615" r="22" fill="#5a3de6"/>
+  <text x="100" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <text x="150" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">💳 Complete Setup</text>
+  <text x="150" y="625" font-family="Arial, sans-serif" font-size="16" fill="#555">Enter domain choice</text>
+  <text x="150" y="650" font-family="Arial, sans-serif" font-size="16" fill="#555">Fill account details</text>
+  <text x="150" y="675" font-family="Arial, sans-serif" font-size="16" fill="#555">Complete payment</text>
+  <text x="150" y="700" font-family="Arial, sans-serif" font-size="16" fill="#555">Check email for credentials</text>
+
+  <!-- Step 5 -->
+  <rect x="50" y="720" width="900" height="130" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="765" r="22" fill="#5a3de6"/>
+  <text x="100" y="770" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  <text x="150" y="750" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">🔗 Connect Your Domain</text>
+  <text x="150" y="775" font-family="Arial, sans-serif" font-size="16" fill="#555">New domain = auto-connected</text>
+  <text x="150" y="800" font-family="Arial, sans-serif" font-size="16" fill="#555">Transfer: point nameservers</text>
+  <text x="150" y="825" font-family="Arial, sans-serif" font-size="16" fill="#555">ns1.dns-parking.com</text>
+  <text x="150" y="850" font-family="Arial, sans-serif" font-size="16" fill="#555">ns2.dns-parking.com</text>
+  <text x="150" y="875" font-family="Arial, sans-serif" font-size="14" fill="#555">(Allow 24-48h propagation)</text>
+
+  <!-- Step 6 -->
+  <rect x="50" y="900" width="900" height="130" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="945" r="22" fill="#5a3de6"/>
+  <text x="100" y="950" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">6</text>
+  <text x="150" y="930" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">⬇️ Install WordPress</text>
+  <text x="150" y="955" font-family="Arial, sans-serif" font-size="16" fill="#555">hPanel → Auto Installer</text>
+  <text x="150" y="980" font-family="Arial, sans-serif" font-size="16" fill="#555">Select WordPress</text>
+  <text x="150" y="1005" font-family="Arial, sans-serif" font-size="16" fill="#555">Enter site details</text>
+  <text x="150" y="1030" font-family="Arial, sans-serif" font-size="16" fill="#555">Click "Install" (under 2 min)</text>
+
+  <!-- Step 7 -->
+  <rect x="50" y="1060" width="900" height="150" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="1105" r="22" fill="#5a3de6"/>
+  <text x="100" y="1110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">7</text>
+  <text x="150" y="1085" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">⚙️ Configure Essentials</text>
+  <text x="150" y="1110" font-family="Arial, sans-serif" font-size="15" fill="#555">• Update permalinks</text>
+  <text x="150" y="1135" font-family="Arial, sans-serif" font-size="15" fill="#555">• Verify SSL (lock icon)</text>
+  <text x="150" y="1160" font-family="Arial, sans-serif" font-size="15" fill="#555">• Choose lightweight theme</text>
+  <text x="150" y="1185" font-family="Arial, sans-serif" font-size="15" fill="#555">• Install SEO + cache plugins</text>
+
+  <!-- Step 8 -->
+  <rect x="50" y="1230" width="900" height="160" fill="#f8f9fa" stroke="#5a3de6" stroke-width="3" rx="8"/>
+  <circle cx="100" cy="1275" r="22" fill="#5a3de6"/>
+  <text x="100" y="1280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">8</text>
+  <text x="150" y="1260" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">🚀 Launch & Verify</text>
+  <text x="150" y="1285" font-family="Arial, sans-serif" font-size="15" fill="#555">• Publish your first page</text>
+  <text x="150" y="1310" font-family="Arial, sans-serif" font-size="15" fill="#555">• Test on mobile + desktop</text>
+  <text x="150" y="1335" font-family="Arial, sans-serif" font-size="15" fill="#555">• Submit to Google Search Console</text>
+  <text x="150" y="1360" font-family="Arial, sans-serif" font-size="15" fill="#555">• Set up analytics</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1400" width="1000" height="100" fill="#5a3de6"/>
+  <text x="500" y="1430" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">30-day money-back guarantee | 24/7 support</text>
+  <text x="500" y="1455" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">AFFILIATE_LINK_PENDING</text>
+  <text x="500" y="1480" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+</svg>

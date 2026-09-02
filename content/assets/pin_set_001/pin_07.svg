@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+
+  <!-- Purple accent header bar -->
+  <rect x="0" y="0" width="1000" height="100" fill="#5a3de6"/>
+
+  <!-- Large "7" in purple circle -->
+  <circle cx="500" cy="180" r="55" fill="#5a3de6"/>
+  <text x="500" y="188" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">7</text>
+
+  <!-- Pin icon (emoji) -->
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="32" fill="#5a3de6" text-anchor="middle">⚙️</text>
+
+  <!-- Title -->
+  <text x="500" y="330" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#333" text-anchor="middle">5 WordPress Settings to Fix FIRST</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="378" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6" text-anchor="middle">Avoid these common beginner mistakes</text>
+
+  <!-- Section header -->
+  <text x="120" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a3de6">Do these before publishing your first page:</text>
+
+  <!-- Setting 1: Permalinks -->
+  <rect x="120" y="450" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="484" r="20" fill="#5a3de6"/>
+  <text x="165" y="490" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="205" y="475" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6">🔗</text>
+  <text x="245" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Permalinks</text>
+  <text x="245" y="500" font-family="Arial, sans-serif" font-size="14" fill="#555">Settings → Permalinks → choose "Post name"</text>
+
+  <!-- Setting 2: SSL -->
+  <rect x="120" y="528" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="562" r="20" fill="#5a3de6"/>
+  <text x="165" y="568" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="205" y="553" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6">🔒</text>
+  <text x="245" y="553" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">SSL certificate</text>
+  <text x="245" y="578" font-family="Arial, sans-serif" font-size="14" fill="#555">Force HTTPS — look for the green lock in the address bar</text>
+
+  <!-- Setting 3: Theme -->
+  <rect x="120" y="606" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="640" r="20" fill="#5a3de6"/>
+  <text x="165" y="646" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="205" y="631" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6">🎨</text>
+  <text x="245" y="631" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Theme selection</text>
+  <text x="245" y="656" font-family="Arial, sans-serif" font-size="14" fill="#555">Pick a lightweight theme (Astra, GeneratePress, Kadence)</text>
+
+  <!-- Setting 4: Cache plugin -->
+  <rect x="120" y="684" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="718" r="20" fill="#5a3de6"/>
+  <text x="165" y="724" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <text x="205" y="709" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6">⚡</text>
+  <text x="245" y="709" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Cache plugin</text>
+  <text x="245" y="734" font-family="Arial, sans-serif" font-size="14" fill="#555">Install WP Super Cache or LiteSpeed Cache for faster load times</text>
+
+  <!-- Setting 5: SEO plugin -->
+  <rect x="120" y="762" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="796" r="20" fill="#5a3de6"/>
+  <text x="165" y="802" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  <text x="205" y="787" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6">🔍</text>
+  <text x="245" y="787" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">SEO plugin</text>
+  <text x="245" y="812" font-family="Arial, sans-serif" font-size="14" fill="#555">Install Rank Math or Yoast — set titles and meta descriptions</text>
+
+  <!-- Warning: do these before publishing -->
+  <rect x="120" y="860" width="760" height="100" fill="#fff4e6" stroke="#ff9800" stroke-width="2" rx="10"/>
+  <circle cx="170" cy="910" r="22" fill="white" stroke="#ff9800" stroke-width="3"/>
+  <text x="170" y="919" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ff9800" text-anchor="middle">!</text>
+  <text x="210" y="900" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Do these before publishing</text>
+  <text x="210" y="925" font-family="Arial, sans-serif" font-size="14" fill="#555">Wrong settings = slow site + ranking problems later.</text>
+  <text x="210" y="945" font-family="Arial, sans-serif" font-size="14" fill="#555">Each fix takes 2 minutes and saves hours of debugging.</text>
+
+  <!-- Quick-reference tip -->
+  <rect x="120" y="990" width="760" height="50" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="8"/>
+  <circle cx="155" cy="1015" r="14" fill="#4caf50"/>
+  <text x="155" y="1020" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">i</text>
+  <text x="185" y="1010" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#4caf50">Tip</text>
+  <text x="220" y="1010" font-family="Arial, sans-serif" font-size="14" fill="#333">Settings live under "Settings" in your WordPress dashboard sidebar.</text>
+  <text x="220" y="1028" font-family="Arial, sans-serif" font-size="12" fill="#555">No code edits required for any of these.</text>
+
+  <!-- CTA button -->
+  <rect x="350" y="1080" width="300" height="70" fill="#5a3de6" rx="35"/>
+  <text x="500" y="1125" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Optimize Now →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1380" width="1000" height="120" fill="#5a3de6"/>
+  <text x="500" y="1410" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Wrong settings = slow site + ranking problems</text>
+  <text x="500" y="1435" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+  <text x="500" y="1455" font-family="Arial, sans-serif" font-size="10" fill="#cccccc" text-anchor="middle">All prices verified September 2026</text>
+</svg>

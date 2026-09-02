@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+
+  <!-- Purple accent header bar -->
+  <rect x="0" y="0" width="1000" height="100" fill="#5a3de6"/>
+
+  <!-- Large "1" in purple circle -->
+  <circle cx="500" cy="180" r="55" fill="#5a3de6"/>
+  <text x="500" y="188" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">1</text>
+
+  <!-- Pin icon (emoji) -->
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="32" fill="#5a3de6" text-anchor="middle">🎯</text>
+
+  <!-- Title -->
+  <text x="500" y="330" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#333" text-anchor="middle">What Kind of Website Do You Need?</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="385" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6" text-anchor="middle">Pick the Right Hostinger Plan for Your Purpose</text>
+
+  <!-- 2x2 Card Grid (starting y=430) -->
+  <!-- Card 1: Blog (top-left) -->
+  <rect x="120" y="430" width="320" height="160" fill="#f8f9fa" stroke="#5a3de6" stroke-width="2" rx="10"/>
+  <text x="280" y="480" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5a3de6" text-anchor="middle">Blog</text>
+  <text x="280" y="510" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">Personal blog or portfolio</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">→ Premium plan</text>
+
+  <!-- Card 2: Business (top-right) -->
+  <rect x="560" y="430" width="320" height="160" fill="#f8f9fa" stroke="#5a3de6" stroke-width="2" rx="10"/>
+  <text x="720" y="480" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5a3de6" text-anchor="middle">Business</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">Small business site</text>
+  <text x="720" y="540" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">→ Cloud Startup plan</text>
+
+  <!-- Card 3: Online Store (bottom-left) -->
+  <rect x="120" y="610" width="320" height="160" fill="#f8f9fa" stroke="#5a3de6" stroke-width="2" rx="10"/>
+  <text x="280" y="660" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5a3de6" text-anchor="middle">Online Store</text>
+  <text x="280" y="690" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">eComm store (WooCommerce)</text>
+  <text x="280" y="720" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">→ Cloud Startup plan</text>
+
+  <!-- Card 4: Agency Portfolio (bottom-right) -->
+  <rect x="560" y="610" width="320" height="160" fill="#f8f9fa" stroke="#5a3de6" stroke-width="2" rx="10"/>
+  <text x="720" y="660" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5a3de6" text-anchor="middle">Agency Portfolio</text>
+  <text x="720" y="690" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">Multiple client sites</text>
+  <text x="720" y="720" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">→ Unlimited plan</text>
+
+  <!-- CTA button -->
+  <rect x="350" y="830" width="300" height="70" fill="#5a3de6" rx="35"/>
+  <text x="500" y="875" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">See What You Need →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1050" width="1000" height="120" fill="#5a3de6"/>
+  <text x="500" y="1085" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">AFFILIATE_LINK_PENDING</text>
+  <text x="500" y="1115" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+  <text x="500" y="1140" font-family="Arial, sans-serif" font-size="10" fill="#cccccc" text-anchor="middle">All prices verified September 2026</text>
+</svg>

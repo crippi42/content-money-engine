@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+
+  <!-- Purple accent header bar -->
+  <rect x="0" y="0" width="1000" height="100" fill="#5a3de6"/>
+
+  <!-- Large "2" in purple circle -->
+  <circle cx="500" cy="180" r="55" fill="#5a3de6"/>
+  <text x="500" y="188" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">2</text>
+
+  <!-- Pin icon (emoji) -->
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="32" fill="#5a3de6" text-anchor="middle">🌐</text>
+
+  <!-- Title -->
+  <text x="500" y="330" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#333" text-anchor="middle">Domain Name Tips</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="385" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6" text-anchor="middle">5 Rules for a Perfect Domain Name</text>
+
+  <!-- 5 Rules as checklist items with checkmark badges -->
+  <!-- Rule 1 -->
+  <rect x="120" y="430" width="760" height="60" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="160" cy="460" r="18" fill="#5a3de6"/>
+  <text x="160" y="465" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="210" y="465" font-family="Arial, sans-serif" font-size="18" fill="#333">Keep it short and easy to spell</text>
+
+  <!-- Rule 2 -->
+  <rect x="120" y="500" width="760" height="60" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="160" cy="530" r="18" fill="#5a3de6"/>
+  <text x="160" y="535" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="210" y="535" font-family="Arial, sans-serif" font-size="18" fill="#333">Use .com if possible</text>
+
+  <!-- Rule 3 -->
+  <rect x="120" y="570" width="760" height="60" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="160" cy="600" r="18" fill="#5a3de6"/>
+  <text x="160" y="605" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="210" y="605" font-family="Arial, sans-serif" font-size="18" fill="#333">Avoid hyphens and numbers</text>
+
+  <!-- Rule 4 -->
+  <rect x="120" y="640" width="760" height="60" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="160" cy="670" r="18" fill="#5a3de6"/>
+  <text x="160" y="675" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <text x="210" y="675" font-family="Arial, sans-serif" font-size="18" fill="#333">Easy to type and pronounce</text>
+
+  <!-- Rule 5 -->
+  <rect x="120" y="710" width="760" height="60" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="160" cy="740" r="18" fill="#5a3de6"/>
+  <text x="160" y="745" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  <text x="210" y="745" font-family="Arial, sans-serif" font-size="18" fill="#333">Check social handle availability</text>
+
+  <!-- Example domain row -->
+  <rect x="120" y="790" width="760" height="50" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <text x="500" y="825" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">Good: myblog.com — Bad: my-blog-2025.com</text>
+
+  <!-- CTA button -->
+  <rect x="350" y="880" width="300" height="70" fill="#5a3de6" rx="35"/>
+  <text x="500" y="925" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Get It Right the First Time →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1080" width="1000" height="90" fill="#5a3de6"/>
+  <text x="500" y="1110" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+  <text x="500" y="1130" font-family="Arial, sans-serif" font-size="10" fill="#cccccc" text-anchor="middle">All prices verified September 2026</text>
+</svg>

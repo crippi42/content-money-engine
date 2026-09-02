@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <rect width="1000" height="1500" fill="white"/>
+
+  <!-- Purple accent header bar -->
+  <rect x="0" y="0" width="1000" height="100" fill="#5a3de6"/>
+
+  <!-- Large "8" in purple circle -->
+  <circle cx="500" cy="180" r="55" fill="#5a3de6"/>
+  <text x="500" y="188" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">8</text>
+
+  <!-- Pin icon (emoji) -->
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="32" fill="#5a3de6" text-anchor="middle">🚀</text>
+
+  <!-- Title -->
+  <text x="500" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#333" text-anchor="middle">Pre-Launch Checklist</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="378" font-family="Arial, sans-serif" font-size="20" fill="#5a3de6" text-anchor="middle">5 Things to Test Before Going Live</text>
+
+  <!-- Section header -->
+  <text x="120" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a3de6">Work through each item and check it off:</text>
+
+  <!-- Checklist item 1: Broken links -->
+  <rect x="120" y="450" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="484" r="20" fill="#5a3de6"/>
+  <text x="165" y="490" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="215" y="478" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Broken links test</text>
+  <text x="215" y="500" font-family="Arial, sans-serif" font-size="14" fill="#555">Click every link on your site — fix any 404s before launch</text>
+
+  <!-- Checklist item 2: Mobile responsiveness -->
+  <rect x="120" y="528" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="562" r="20" fill="#5a3de6"/>
+  <text x="165" y="568" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="215" y="556" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Mobile responsiveness check</text>
+  <text x="215" y="578" font-family="Arial, sans-serif" font-size="14" fill="#555">Preview on your phone — images, menus, and text should all display cleanly</text>
+
+  <!-- Checklist item 3: SSL certificate -->
+  <rect x="120" y="606" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="640" r="20" fill="#5a3de6"/>
+  <text x="165" y="646" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="215" y="634" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">SSL certificate verified</text>
+  <text x="215" y="656" font-family="Arial, sans-serif" font-size="14" fill="#555">Look for the padlock in the address bar — HTTP pages break trust</text>
+
+  <!-- Checklist item 4: Google Search Console -->
+  <rect x="120" y="684" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="718" r="20" fill="#5a3de6"/>
+  <text x="165" y="724" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <text x="215" y="712" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Google Search Console submitted</text>
+  <text x="215" y="734" font-family="Arial, sans-serif" font-size="14" fill="#555">Submit your sitemap so Google can start indexing your pages</text>
+
+  <!-- Checklist item 5: Analytics -->
+  <rect x="120" y="762" width="760" height="68" fill="#f8f9fa" stroke="#5a3de6" stroke-width="1" rx="8"/>
+  <circle cx="165" cy="796" r="20" fill="#5a3de6"/>
+  <text x="165" y="802" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  <text x="215" y="790" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Analytics installed</text>
+  <text x="215" y="812" font-family="Arial, sans-serif" font-size="14" fill="#555">Add Google Analytics or Plausible to track visitors from day one</text>
+
+  <!-- Ready to launch banner -->
+  <rect x="120" y="860" width="760" height="90" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <circle cx="170" cy="905" r="22" fill="#4caf50"/>
+  <text x="170" y="914" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="white" text-anchor="middle">✓</text>
+  <text x="210" y="897" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4caf50">Ready to launch!</text>
+  <text x="210" y="922" font-family="Arial, sans-serif" font-size="14" fill="#555">All 5 checks passed — your site is ready for visitors</text>
+
+  <!-- CTA button -->
+  <rect x="350" y="990" width="300" height="70" fill="#5a3de6" rx="35"/>
+  <text x="500" y="1035" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Check It Twice →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1380" width="1000" height="120" fill="#5a3de6"/>
+  <text x="500" y="1410" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Better to catch now than lose visitors later</text>
+  <text x="500" y="1435" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">This guide is not affiliated with Hostinger</text>
+  <text x="500" y="1455" font-family="Arial, sans-serif" font-size="10" fill="#cccccc" text-anchor="middle">All prices verified September 2026</text>
+</svg>
