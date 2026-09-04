@@ -1,0 +1,31 @@
+version: "1.0"
+description: "Content Money Engine MCP configuration — C1: Registry loads config, all interfaces not-configured"
+
+mcp_servers: {}
+
+interfaces:
+  research:
+    abstract_type: "research_mcp"
+    concrete_server: null
+    phase_a_status: "not_configured"
+
+  affiliate:
+    abstract_type: "affiliate_mcp"
+    concrete_server: null
+    phase_a_status: "not_configured"
+
+  content:
+    abstract_type: "content_mcp"
+    concrete_server: null
+    phase_a_status: "not_configured"
+
+  publishing:
+    abstract_type: "publishing_mcp"
+    concrete_server: null
+    phase_a_status: "not_configured"
+    requires_approval: true
+
+  analytics:
+    abstract_type: "analytics_mcp"
+    concrete_server: null
+    phase_a_status: "not_configured"

@@ -1,0 +1,10 @@
+version: 1.0
+workspace_identifier: content-money-engine
+authorized_projects:
+  content-money-engine:
+    canonical_path: 'C:\Users\Omar\content-money-engine'
+    enabled: true
+    allowed_operations:
+      - read
+      - write
+      - test

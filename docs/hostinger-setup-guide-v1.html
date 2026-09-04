@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="p:domain_verify" content="5966d4e8771f01aed1e6d90166c7d3b1"/>
+    <title>Hostinger 8-Step Setup Guide for Beginners (2026)</title>
+    <meta name="description" content="Step-by-step guide to setting up your first website on Hostinger. Covers domain selection, plan choice, WordPress installation, and essential configuration — no technical experience required.">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #5a3de6; }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        h3 { color: #5a3de6; }
+        .disclaimer {
+            background: #fffbe6;
+            border: 1px solid #f0c100;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+        .affiliate-placeholder {
+            background: #ffe6e6;
+            border: 2px dashed #ff4444;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            color: #cc0000;
+            margin: 24px 0;
+        }
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #5a3de6;
+            padding: 16px 20px;
+            margin: 16px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: #5a3de6;
+            color: white;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            margin-right: 10px;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Consolas', monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th { background: #f0f0f0; }
+        .recommendation {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 0.85em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hostinger 8-Step Setup Guide for Beginners (2026)</h1>
+
+<p>This guide walks you through setting up your first website on Hostinger — from choosing a domain to launching your site. No technical experience required.</p>
+
+<p><strong>Last updated:</strong> September 2026</p>
+
+<!-- Tracking metadata (for future experiment measurement) -->
+<!-- experiment_id: D4-HOSTINGER-PINTEREST-001 -->
+<!-- asset_id: landing_page_001 -->
+<!-- channel: pinterest_plus_seo -->
+<!-- content_variant: setup_guide_v1 -->
+<!-- destination: /hostinger-setup-guide -->
+
+<div class="disclaimer">
+<strong>Disclosure:</strong> This page is an independent educational guide. It does not currently contain affiliate links. If you sign up for Hostinger directly, we will not earn a commission. If an affiliate relationship is established in the future, any affiliate links will be clearly labeled and will not affect your price. All recommendations are based on our own research and honest assessment. We are not affiliated with or endorsed by Hostinger.
+</div>
+
+<p><strong>Note:</strong> To sign up for Hostinger directly, visit <a href="https://www.hostinger.com" target="_blank" rel="noopener noreferrer">hostinger.com</a>. We will not earn a commission — these are our independent recommendations based on our own testing.</p>
+
+<h2 id="before-you-begin">Before You Begin</h2>
+
+<p>Hostinger is a web hosting company that offers shared hosting, VPS, cloud hosting, and a website builder. Its pricing starts at $2.99/month (as of September 2026) for the 48-month plan, which renews at $10.99/month.</p>
+
+<p>If you want to start a website and have decided that Hostinger might be right for you, this guide will help you set it up correctly the first time.</p>
+
+<h2 id="step-plan-comparison">Plan Comparison: Finding the Right Fit</h2>
+
+<table>
+    <tr>
+        <th>Plan</th>
+        <th>Best For</th>
+        <th>Price (Promotional)</th>
+        <th>Renewal Price</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td>Premium (48 mo)</td>
+        <td>Personal blog, portfolio</td>
+        <td>$2.99/mo ($143.52 total)</td>
+        <td>$10.99/mo renewal</td>
+        <td>Cheapest option; 3 websites</td>
+    </tr>
+    <tr>
+        <td>Unlimited (48 mo)</td>
+        <td>Multiple sites, growing traffic</td>
+        <td>$3.99/mo ($191.52 total)</td>
+        <td>$16.99/mo renewal</td>
+        <td>Unlimited websites; free SSL, CDN</td>
+    </tr>
+    <tr>
+        <td>Cloud Startup (48 mo)</td>
+        <td>Small business, WooCommerce</td>
+        <td>$7.99/mo ($383.52 total)</td>
+        <td>$25.99/mo renewal</td>
+        <td>Free domain 1st year, daily backups</td>
+    </tr>
+</table>
+
+<div class="recommendation">
+<strong>Our recommendation:</strong> If you are starting a single blog or portfolio, the Premium plan is sufficient. If you plan to run multiple sites or a small e-commerce store, the Cloud Startup plan offers the best value per feature.
+</div>
+
+<h2 id="step-1-purpose">Step 1: Choose Your Website Purpose</h2>
+
+<div class="step">
+<span class="step-number">1</span>
+<p>Decide what your website will be:</p>
+<ul>
+    <li>Personal blog or portfolio</li>
+    <li>Small business site</li>
+    <li>eCommerce store (WooCommerce/Shopify)</li>
+    <li>Agency/client site</li>
+</ul>
+<p>Your purpose determines which plan and features you need:</p>
+<ul>
+    <li><strong>Blog/portfolio</strong>: Premium plan is sufficient</li>
+    <li><strong>Business site with email</strong>: Cloud Startup plan recommended (free domain, email)</li>
+    <li><strong>eCommerce</strong>: Cloud Startup plan (SSL, daily backups)</li>
+    <li><strong>Multiple clients</strong>: Unlimited or Cloud Startup plan</li>
+</ul>
+</div>
+
+<h2 id="step-2-domain">Step 2: Choose Your Domain</h2>
+
+<div class="step">
+<span class="step-number">2</span>
+<p>Select a domain name. Options:</p>
+<ul>
+    <li>Register a new domain through Hostinger (free for 1 year with Cloud Startup plan)</li>
+    <li>Transfer an existing domain to Hostinger (transfer fee applies)</li>
+    <li>Use a subdomain (e.g., <code>yourname.hostingerapp.com</code>) — free but less professional</li>
+</ul>
+<p><strong>Domain tips:</strong></p>
+<ul>
+    <li>Keep it short and easy to spell</li>
+    <li>Use .com if possible (most trusted)</li>
+    <li>Avoid numbers and hyphens</li>
+    <li>Check social media handle availability early</li>
+</ul>
+</div>
+
+<h2 id="step-3-plan">Step 3: Select a Hosting Plan</h2>
+
+<div class="step">
+<span class="step-number">3</span>
+<p>Choose your plan based on your purpose (see table above). Consider:</p>
+<ul>
+    <li><strong>Term length</strong>: Longer terms (48 months) have the lowest per-month cost</li>
+    <li><strong>Renewal cost</strong>: Prices increase at renewal — budget accordingly</li>
+    <li><strong>Features</strong>: Only pay for what you need initially</li>
+    <li><strong>Migration</strong>: If moving from another host, check if they offer free migration</li>
+</ul>
+<div class="warning">
+<strong>Important:</strong> Hostinger offers a 30-day money-back guarantee. You can test the service and cancel if it doesn't meet your needs.
+</div>
+</div>
+
+<p><strong>Note:</strong> Ready to choose your plan? Visit <a href="https://www.hostinger.com" target="_blank" rel="noopener noreferrer">hostinger.com</a> directly. We will not earn a commission — these are our independent recommendations based on our own testing.</p>
+
+<h2 id="step-4-payment">Step 4: Complete Hosting Setup</h2>
+
+<div class="step">
+<span class="step-number">4</span>
+<p>After selecting your plan:</p>
+<ol>
+    <li>Enter your domain choice (new, transfer, or skip)</li>
+    <li>Fill in account details</li>
+    <li>Review and complete payment</li>
+    <li>Check your email for login credentials and setup instructions</li>
+</ol>
+<p>You will receive an email with your hosting account details and a link to the Hostinger hPanel (their custom control panel).</p>
+</div>
+
+<h2 id="step-5-domain-connect">Step 5: Connect/Configure Your Domain</h2>
+
+<div class="step">
+<span class="step-number">5</span>
+<p>If you registered a new domain through Hostinger, it is automatically connected. If you transferred a domain:</p>
+<ol>
+    <li>Point your domain's nameservers to Hostinger:
+        <code>ns1.dns-parking.com</code> and <code>ns2.dns-parking.com</code>
+    </li>
+    <li>Allow 24-48 hours for DNS propagation (usually faster with Hostinger's DNS)</li>
+</ol>
+<p>You can check DNS status in the hPanel under "DNS Zone Editor."</p>
+</div>
+
+<h2 id="step-6-wordpress">Step 6: Install WordPress (or Site Software)</h2>
+
+<div class="step">
+<span class="step-number">6</span>
+<p>Hostinger offers one-click WordPress installation:</p>
+<ol>
+    <li>Log into your Hostinger hPanel</li>
+    <li>Navigate to <em>Auto Installer</em></li>
+    <li>Select your domain and click "Install" next to WordPress</li>
+    <li>Fill in your site name, admin username, and password</li>
+    <li>Click "Install"</li>
+</ol>
+<p><strong>Alternative options:</strong></p>
+<ul>
+    <li>Use Hostinger Website Builder (drag-and-drop, no coding)</li>
+    <li>Install another CMS (Drupal, Joomla) via the same auto-installer</li>
+    <li>Start with a blank site for custom development</li>
+</ul>
+<p><strong>Estimated time:</strong> Installation completes in under 2 minutes.</p>
+</div>
+
+<h2 id="step-7-config">Step 7: Configure Essential Settings</h2>
+
+<div class="step">
+<span class="step-number">7</span>
+<p>After WordPress installation:</p>
+<ol>
+    <li><strong>Update permalinks</strong>: Go to Settings → Permalinks → select "Post name"</li>
+    <li><strong>Install SSL</strong>: SSL is included — verify the lock icon appears</li>
+    <li><strong>Choose a lightweight theme</strong>: Astra, GeneratePress, or Hostinger's free themes</li>
+    <li><strong>Install essential plugins</strong>:
+        <ul>
+            <li>Rank Math or Yoast SEO (SEO)</li>
+            <li>WP Super Cache or LiteSpeed Cache (performance)</li>
+            <li>UpdraftPlus (backups — Hostinger includes this on Cloud Startup plan)</li>
+            <li>Wordfence (security)</li>
+        </ul>
+    </li>
+    <li><strong>Set timezone and region</strong>: Settings → General</li>
+</ol>
+</div>
+
+<div class="recommendation">
+<strong>Efficiency tip:</strong> Hostinger's Cloud Startup plan includes free domain, daily backups, and email accounts, which eliminates several paid add-ons you would otherwise need to purchase separately.
+</div>
+
+<h2 id="step-8-launch">Step 8: Launch and Verify</h2>
+
+<div class="step">
+<span class="step-number">8</span>
+<p>Before going live:</p>
+<ol>
+    <li>Write and publish your first post or page</li>
+    <li>Test all links and forms</li>
+    <li>Verify the site loads on mobile and desktop</li>
+    <li>Use <a href="https://www.whatsmyip.org/http2-test/" target="_blank">SSL checker tools</a> to confirm HTTPS</li>
+    <li>Submit your site to Google Search Console for indexing</li>
+</ol>
+<p><strong>After launch:</strong></p>
+<ul>
+    <li>Monitor uptime and performance</li>
+    <li>Schedule regular backups</li>
+    <li>Set up analytics (Google Analytics free, or Plausible for privacy-focused)</li>
+</ul>
+</div>
+
+<p><strong>Note:</strong> Launching your site? Get started with Hostinger at <a href="https://www.hostinger.com" target="_blank" rel="noopener noreferrer">hostinger.com</a>. We will not earn a commission — this is an independent recommendation based on our own testing.</p>
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+<h3>Is Hostinger good for beginners?</h3>
+<p>Yes. The hPanel is designed to be beginner-friendly, and one-click WordPress installation makes getting started simple. The 30-day money-back guarantee allows risk-free testing.</p>
+
+<h3>Can I upgrade my plan later?</h3>
+<p>Yes. Hostinger allows plan upgrades at any time. The cost difference is prorated.</p>
+
+<h3>Do I get a free domain?</h3>
+<p>Free domain registration is included with the Cloud Startup plan (1 year). Other plans require separate domain registration.</p>
+
+<h3>Is the 48-month plan worth it?</h3>
+<p>For beginners who are confident they will keep their site long-term, yes. It offers the lowest per-month cost. If you are unsure, start with a shorter term.</p>
+
+<h3>What if I need help?</h3>
+<p>Hostinger offers 24/7 support via live chat. Response times are typically under 10 minutes for hosting inquiries.</p>
+
+<div class="footer">
+<p>This guide was created independently and is not affiliated with or endorsed by Hostinger. All pricing and features are based on publicly available information as of September 2026. Prices and terms are subject to change.</p>
+</div>
+
+</body>
+</html>
